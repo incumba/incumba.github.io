@@ -75,10 +75,10 @@ jQuery( function($){
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
 			slides:  	[				// Slideshow Images
-							{image : 'assets/img/sliders/01.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/02.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/03.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/04.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/01.jpg', title : '<div class=""><img class="logo-main" src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/02.jpg', title : '<div class=""><img class="logo-main" src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/03.jpg', title : '<div class=""><img class="logo-main" src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/04.jpg', title : '<div class=""><img class="logo-main" src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
 						],
 		});
 
