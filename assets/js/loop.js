@@ -67,7 +67,7 @@ jQuery( function($){
 
 			// Functionality
 			autoplay: 1,				// Slideshow starts playing automatically
-			slide_interval: 3000,		// Length between transitions
+			slide_interval: 5000,		// Length between transitions
 			transition: 1, 				// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 			transition_speed: 1000,		// Speed of transition
 
@@ -75,9 +75,10 @@ jQuery( function($){
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
 			slides:  	[				// Slideshow Images
-							{image : 'assets/img/sliders/slider1.png', title : '<div class="hero-text"><h2 class="hero-heading">INCUMBA</h2><p>We gotta print on wood</p></div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/slider2.png', title : '<div class="hero-text"><h2 class="hero-heading">INCUMBA</h2><p>We gotta print on wood</p></div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/slider3.png', title : '<div class="hero-text"><h2 class="hero-heading">INCUMBA</h2><p>We gotta print on wood</p></div>', thumb : '', url : ''}
+							{image : 'assets/img/sliders/01.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/02.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/03.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/04.jpg', title : '<div class=""><img src="assets/img/logo1.png"> </div>', thumb : '', url : ''},
 						],
 		});
 
